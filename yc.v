@@ -5,7 +5,7 @@ struct App {
 	vweb.Context
 }
 fn main(){
-    println('web ip')
+    println('web start')
     vweb.run(&App{},5342)
     }
 pub fn (mut app App)index()vweb.Result {
